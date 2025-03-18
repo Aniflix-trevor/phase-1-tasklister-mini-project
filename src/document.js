@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
     li.innerText = text.value;
     ul.appendChild(li);
     text.value = "";
-    // taskform.reset();
 
     const deleteButton = document.createElement("button");
 
@@ -23,9 +22,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-
-
-
-
-
-
